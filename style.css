@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(217, 200, 200);
+}
+nav{
+    background: blue;
+    width: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 60px;
+    border-radius: 50px;
+
+}
+.link > ul{
+    display: flex;
+    align-items: center;
+
+}
+.link ul li{
+    list-style: none;
+   
+}
+.link ul li a{
+    text-decoration: none;
+    margin: 5px;
+    color: wheat;
+    text-transform: uppercase;
+}
+.search{
+    width: 350px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+.search img{
+    border-radius: 30px;
+}
+.search input{
+    outline: none;
+    border: none;
+    padding: 9px;
+}
+.container{
+    display: flex;
+  
+}
+
+
+
+
+.left-side h5{
+    color: blue;
+    margin: 10px;
+    text-transform: uppercase;
+    border-bottom: 1px solid blue;
+}
+.left-side a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: blue;
+    font-size: 13px;
+}
+.left-side img{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.main img{
+    width: 150px;
+   margin: 10px;
+    border-radius: 10px;
+    
+   
+}
+.login-box{
+    background: linear-gradient(to right,white,gray);
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgb(210, 177, 177), -5px -5px 5px gray;
+    border-radius: 10px;
+    padding: 9px;
+}
+.main p{
+    align-items: center;
+   margin: 16px;
+   font-style: italic;
+  
+
+}
+.login-box input{
+    border: none;
+    outline: none;
+    height: 30px;
+   border-radius: 10px;
+   margin: 7px;
+
+}
+.login-box h1{
+    margin: 9px;
+    border-bottom: 1px solid black;
+    padding-bottom: 3px;
+
+   
+}
+button{
+    border: none;
+    outline: none;
+    padding: 12px;
+    border-radius: 30px;
+    background-color: gray;
+
+}
+footer{
+    height: 40px;
+    width: 100%;
+    background-color: gray;
+    color: white;
+}
+footer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    padding: 5px;
+    position: relative;
+}
